@@ -1,6 +1,10 @@
 map <S-Right> :bnext<CR>
 map <S-Left> :bprev<CR>
 
+map <Space> za<CR>
+" don't fold
+set foldlevel=99
+
 if has("autocmd")
   filetype plugin indent on
 endif
@@ -18,6 +22,7 @@ Plug 'tpope/vim-sensible'
 Plug 'davidhalter/jedi-vim'
 Plug 'nvie/vim-flake8'
 Plug 'flazz/vim-colorschemes'
+Plug 'tmhedberg/SimpylFold'
 
 call plug#end()
 
