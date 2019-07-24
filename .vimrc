@@ -27,3 +27,7 @@ Plug 'tmhedberg/SimpylFold'
 call plug#end()
 
 colorscheme badwolf
+
+set hlsearch
+:highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
+:match ExtraWhitespace /\s\+$/
