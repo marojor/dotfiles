@@ -23,6 +23,7 @@ Plug 'davidhalter/jedi-vim'
 Plug 'nvie/vim-flake8'
 Plug 'flazz/vim-colorschemes'
 Plug 'tmhedberg/SimpylFold'
+Plug 'itspriddle/vim-shellcheck'
 
 call plug#end()
 
