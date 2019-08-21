@@ -23,7 +23,6 @@ Plug 'davidhalter/jedi-vim'
 Plug 'nvie/vim-flake8'
 Plug 'flazz/vim-colorschemes'
 Plug 'tmhedberg/SimpylFold'
-Plug 'itspriddle/vim-shellcheck'
 
 call plug#end()
 
@@ -32,3 +31,6 @@ colorscheme badwolf
 set hlsearch
 :highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
 :match ExtraWhitespace /\s\+$/
+
+au QuickFixCmdPost [^l]* nested cwindow
+au QuickFixCmdPost    l* nested lwindow
