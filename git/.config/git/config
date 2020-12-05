@@ -1,0 +1,31 @@
+[user]
+	name = Jorge Maroto
+	email = jmaroto@gmail.com
+	signingkey = 0B533B86F6656D856C8B1BB1B2E14CF4334C9D05
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	up = rebase
+	ci = commit
+	glog = log --abbrev-commit --graph --decorate --oneline
+	gloga = log --abbrev-commit --graph --decorate --oneline --all
+[core]
+	editor = vim
+	pager = less -F -X
+[merge]
+	tool = meld
+[credential]
+	helper = cache --timeout=1000000
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[pull]
+    ff = only
+[fetch]
+    prune = true
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[push]
+	default = current

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for symlink in ag editorconfig tmux vim zsh
+for symlink in ag editorconfig git tmux vim zsh
 do
   stow -v -t "$HOME" "$symlink"
 done
