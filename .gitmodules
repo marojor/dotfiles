@@ -1,3 +1,6 @@
 [submodule "zsh/.zsh/zsh-syntax-highlighting"]
 	path = zsh/.zsh/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "zsh/.zsh/spaceship-prompt"]
+	path = zsh/.zsh/spaceship-prompt
+	url = https://github.com/denysdovhan/spaceship-prompt.git

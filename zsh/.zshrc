@@ -54,8 +54,5 @@ source ~/sysdig/.sysdigrc
 
 eval "$(jenv init -)"
 
-# Set Spaceship ZSH as a prompt
-autoload -U promptinit; promptinit
-prompt spaceship
-
+source $HOME/.zsh/prompt.zsh
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
