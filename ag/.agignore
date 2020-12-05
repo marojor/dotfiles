@@ -1,0 +1,4 @@
+*.pyc
+.git/
+coverage/
+node_modules
