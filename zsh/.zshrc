@@ -55,5 +55,6 @@ source ~/sysdig/.sysdigrc
 eval "$(jenv init -)"
 
 source $HOME/.zsh/prompt.zsh
+source $HOME/.zsh/completion.zsh
 source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
