@@ -34,3 +34,14 @@ set hlsearch
 
 au QuickFixCmdPost [^l]* nested cwindow
 au QuickFixCmdPost    l* nested lwindow
+
+nnoremap :D Oimport pdb; pdb.set_trace()<Esc>
+
+set nu
+
+" use 4 spaces instead of tab
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+set hidden
