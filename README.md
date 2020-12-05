@@ -1,11 +1,11 @@
 # dotfiles
 
-1. Do
+Step 1. Do
 
 ```
 $ ./setup
 ```
 
-2. Wait
+Step 2. ?
 
-3. Profit
+Step 3. PROFIT
