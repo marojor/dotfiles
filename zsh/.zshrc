@@ -59,6 +59,7 @@ eval "$(jenv init -)"
 
 source $HOME/.zsh/prompt.zsh
 source $HOME/.zsh/completion.zsh
+source $HOME/.zsh/alias.zsh
 source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $HOME/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
