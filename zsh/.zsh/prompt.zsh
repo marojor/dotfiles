@@ -17,6 +17,7 @@ SPACESHIP_PROMPT_ORDER=(
 )
 
 SPACESHIP_RPROMPT_ORDER=(
+  terraform     # terraform workspace section
   venv          # virtualenv section
   git           # Git section (git_branch + git_status)
   #kubecontext   # Kubectl context section
