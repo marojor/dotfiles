@@ -54,6 +54,10 @@ snip()
   AWS_PAGER="" aws ec2 describe-instances --filter "Name=tag:Name,Values=\"$1\"" --query "Reservations[*].Instances[*].[PublicIpAddress, PublicDnsName]" --output=text
 }
 
+
+eval "$(direnv hook zsh)"
+source <(kubectl completion zsh)
+
 alias venv="source venv/bin/activate"
 DURATION=$((16 * 3600))
 alias aws-mfa="docker run -it -v ~/.aws:/aws -e AWS_PROFILE=default -e DURATION=$DURATION docker.internal.sysdig.com/utils/aws-mfa:latest"
