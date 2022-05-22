@@ -46,6 +46,7 @@ alias rgrep="grep -r"
 export PATH="/usr/local/opt/gettext/bin:$PATH"
 export PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
 alias base64="/usr/local/bin/gbase64"
+alias awk="/usr/local/bin/gawk"
 
 PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
 
