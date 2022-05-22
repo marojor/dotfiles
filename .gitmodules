@@ -4,6 +4,7 @@
 [submodule "zsh/.zsh/spaceship-prompt"]
 	path = zsh/.zsh/spaceship-prompt
 	url = https://github.com/denysdovhan/spaceship-prompt.git
+	ignore = dirty
 [submodule "zsh/.zsh/zsh-autosuggestions"]
 	path = zsh/.zsh/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
