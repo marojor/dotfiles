@@ -58,6 +58,11 @@ source ~/sysdig/.sysdigrc
 
 eval "$(jenv init -)"
 
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+
 source $HOME/.zsh/prompt.zsh
 source $HOME/.zsh/completion.zsh
 source $HOME/.zsh/alias.zsh
