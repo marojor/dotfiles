@@ -30,12 +30,12 @@ setopt HIST_FIND_NO_DUPS
 setopt HIST_REDUCE_BLANKS
 setopt HIST_VERIFY
 
+export PATH="/usr/local/opt/python@3.9/libexec/bin:$PATH"
 export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
 export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 #export PATH="/usr/local/opt/coreutils/libexec/gnubin/:$PATH"
 export PATH="${HOME}/sysdig/src/scratch/QA/tools:$PATH"
 export PATH="${HOME}/sysdig/src/utils:$PATH"
-export PATH="/Users/marojor/Library/Python/3.7/bin:$PATH"
 alias kc="kubectl --namespace sysdigcloud"
 
 alias rgrep="grep -r"
