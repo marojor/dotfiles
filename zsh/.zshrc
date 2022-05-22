@@ -51,7 +51,8 @@ snip()
 }
 
 alias venv="source venv/bin/activate"
-alias aws-mfa="docker run -it -v ~/.aws:/aws -e AWS_PROFILE=default docker.internal.sysdig.com/utils/aws-mfa:latest"
+DURATION=$((16 * 3600))
+alias aws-mfa="docker run -it -v ~/.aws:/aws -e AWS_PROFILE=default -e DURATION=$DURATION docker.internal.sysdig.com/utils/aws-mfa:latest"
 
 source ~/sysdig/.sysdigrc
 
